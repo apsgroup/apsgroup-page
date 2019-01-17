@@ -1523,6 +1523,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border: none;
 }
 
+.carousel-content img {
+  width: 500px;
+  height: auto;
+  border-radius: 20%;
+  margin-bottom: 20px;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/
