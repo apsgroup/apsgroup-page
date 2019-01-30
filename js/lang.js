@@ -54,6 +54,9 @@ $(document).ready(function(){
         //Projects
         $("#projects-lang").empty().text("Nuestros Proyectos");
 
+        //Portfolio
+        $("#all-lang").empty().text("Todos");
+
         //Clients
         $("#clients-lang").empty().text("Nuestros Clientes");
 
@@ -95,7 +98,7 @@ $(document).ready(function(){
 
         //Mission
         $("#mission-t-lang").empty().text("Our Mission");
-        $("#mission-p-lang").empty().text("To satisfy the needs of our clients by being allies in their projects, providing them with integral solutions of engineering, design and construction. We achieve this by basing our operational and administrative processes on innovation, structure, quality and organization. Committed to safe practices, guaranteeing respect for individuals, and complying with current legislation. We use appropriate materials and competent human talent for this. With each of our actions, we contribute to the economic development of Puerto Rico.");
+        $("#mission-p-lang").empty().text("Satisfying our clients' needs by being their allies in their projects and providing them with essential engineering, design and construction solutions based on innovation and quality. Our achievement will be acquired by committing ourselves to safe practices, ensuring respect for human beings and following current laws. Additionally, we will use adequate materials and competent human talent. Thus, with each of our actions we will contribute to Puerto Rico's economic development.");
 
         //Plan
         $("#plan-t-lang").empty().text("Our Plan");
@@ -103,7 +106,7 @@ $(document).ready(function(){
 
         //Vision
         $("#vision-t-lang").empty().text("Our Vision");
-        $("#vision-p-lang").empty().text("Expand our coverage and consolidate our position in the Puerto Rican market, developing design, engineering and construction projects that exceed the expectations of our clients and allow us to remain a solid, competitive, safe and committed company with quality.");
+        $("#vision-p-lang").empty().text("Expand our coverage and cementing our position in the Puerto Rican market, developing projects of design, engineering and construction that exceed our clients' expectations, allowing us to uphold ourselves as a solid company, competitive, secure, and committed to quality.");
 
         //Services
         $("#services-t-lang").empty().text("Services");
@@ -127,6 +130,9 @@ $(document).ready(function(){
 
         //Projects
         $("#projects-lang").empty().text("Our Projects");
+
+        //Portfolio
+        $("#all-lang").empty().text("All");
 
         //Clients
         $("#clients-lang").empty().text("Our Clients");

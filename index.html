@@ -54,7 +54,7 @@
           <li class="menu-active"><a id="home-lang" href="#intro">Home</a></li>
           <li><a id="about-lang" href="#about">About us</a></li>
           <li><a id="services-lang" href="#services">Services</a></li>
-          <li><a id="portfolio-lang" href="#portfolio">Projects</a></li>
+          <li><a id="portfolio-lang" href="#testimonials">Projects</a></li>
           <li><a id="team-lang" href="#team">Team</a></li>
           <li><a id="contact-lang" href="#contact">Contact us</a></li>
           <li class="switch-lang"><a class="esp-lang" href="#">Español</a></li>
@@ -173,7 +173,7 @@
               </div>
               <h2 id="mission-t-lang" class="title"><a href="#">Our Mission</a></h2>
               <p id="mission-p-lang" class="text-justify">
-                To satisfy the needs of our clients by being allies in their projects, providing them with integral solutions of engineering, design and construction. We achieve this by basing our operational and administrative processes on innovation, structure, quality and organization. Committed to safe practices, guaranteeing respect for individuals, and complying with current legislation. We use appropriate materials and competent human talent for this. With each of our actions, we contribute to the economic development of Puerto Rico.
+                  Satisfying our clients' needs by being their allies in their projects and providing them with essential engineering, design and construction solutions based on innovation and quality. Our achievement will be acquired by committing ourselves to safe practices, ensuring respect for human beings and following current laws. Additionally, we will use adequate materials and competent human talent. Thus, with each of our actions we will contribute to Puerto Rico's economic development.
               </p>
             </div>
           </div>
@@ -199,7 +199,7 @@
               </div>
               <h2 id="vision-t-lang" class="title"><a href="#">Our Vision</a></h2>
               <p id="vision-p-lang" class="text-justify">
-                Expand our coverage and consolidate our position in the Puerto Rican market, developing design, engineering and construction projects that exceed the expectations of our clients and allow us to remain a solid, competitive, safe and committed company with quality.
+                  Expand our coverage and cementing our position in the Puerto Rican market, developing projects of design, engineering and construction that exceed our clients' expectations, allowing us to uphold ourselves as a solid company, competitive, secure, and committed to quality.
               </p>
             </div>
           </div>
@@ -270,7 +270,7 @@
       Facts Section
     ============================-->
     <section id="facts"  class="wow fadeIn">
-      <div class="container">
+      <div class="container facts-test">
 
         <header class="section-header">
           <h3 id="data-lang">Our Data</h3>
@@ -304,20 +304,88 @@
       </div>
     </section><!-- #facts -->
 
+    <section id="testimonials" class="wow fadeInUp">
+      <div class="container">
+
+        <header class="section-header">
+          <h3 id="projects-lang">Our Projects</h3>
+        </header>
+
+        <div class="owl-carousel testimonials-carousel">
+
+          <div class="testimonial-item">
+            <h4>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Ground Compaction - Gravel Supply (Water Mission)
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </h4>
+          </div>
+
+          <div class="testimonial-item">
+            <h4>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Construction Suite 304 (Assertus Building)
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </h4>
+          </div>
+
+          <div class="testimonial-item">
+            <h4>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Desing Office (Assertus Building)
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </h4>
+          </div>
+
+          <div class="testimonial-item">
+            <h4>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Medical Office (Ryder Hospital)
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </h4>
+          </div>
+
+          <div class="testimonial-item">
+            <h4>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Electric Room (Water Mission)
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </h4>
+          </div>
+
+          <div class="testimonial-item">
+            <h4>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Clinic Department (Salud Integral en la Montaña)
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </h4>
+          </div>
+
+          <div class="testimonial-item">
+            <h4>
+              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
+              Management Offices (Salud Integral en la Montaña)
+              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
+            </h4>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!--==========================
       Portfolio Section
     ============================-->
     <section id="portfolio"  class="section-bg" >
       <div class="container">
 
-        <header class="section-header">
-          <h3 class="section-title" id="projects-lang">Our Projects</h3>
+        <header class="section-header d-none">
+          <h3 class="section-title" >Our Projects</h3>
         </header>
 
-        <div class="row">
-          <div class="col-lg-12">
+        <div class="row d-none">
+          <div class="col-lg-12" id="our-projects-content">
             <br>
-            <ul class="text-center our-projects">
+            <ul id="our-projects" class="text-center our-projects">
               <li><h4>Ground Compaction - Gravel Supply (Water Mission)</h4>
               <li><h4>Construction Suite 304 (Assertus Building)</h4>
               <li><h4>Desing Office (Assertus Building)</h4>
@@ -329,45 +397,141 @@
           </div>
         </div>
 
-        <div class="row d-none">
+        <div class="row">
           <div class="col-lg-12">
             <ul id="portfolio-flters">
-              <li data-filter="*" class="filter-active">Todos</li>
-              <li data-filter=".filter-app">Oficina</li>
+              <li id="all-lang" data-filter="*" class="filter-active">All</li>
+              <li data-filter=".filter-app">Interior</li>
               <li data-filter=".filter-card">Exterior</li>
-              <li data-filter=".filter-web">Interior</li>
+              <!--<li data-filter=".filter-web">Interior</li>-->
             </ul>
           </div>
         </div>
 
-        <div class="row portfolio-container d-none">
+        <div class="row portfolio-container">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app1.jpg" data-lightbox="portfolio" data-title="App 1" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <img src="img/portfolio/off_1.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_1.jpeg" data-lightbox="portfolio" data-title="" class="link-preview" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">App 1</a></h4>
-                <p>App</p>
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp d-none" data-wow-delay="0.1s">-->
+            <!--<div class="portfolio-wrap">-->
+              <!--<figure>-->
+                <!--<img src="img/portfolio/web3.jpg" class="img-fluid" alt="">-->
+                <!--<a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>-->
+              <!--</figure>-->
+
+              <!--<div class="portfolio-info">-->
+                <!--<h4><a href="#">Web 3</a></h4>-->
+                <!--<p>Web</p>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/web3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <img src="img/portfolio/off_2.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_2.jpeg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Web 3</a></h4>
-                <p>Web</p>
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
+              </div>
+            </div>
+          </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp d-none">-->
+            <!--<div class="portfolio-wrap">-->
+              <!--<figure>-->
+                <!--<img src="img/portfolio/card2.jpg" class="img-fluid" alt="">-->
+                <!--<a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>-->
+              <!--</figure>-->
+
+              <!--<div class="portfolio-info">-->
+                <!--<h4><a href="#">Card 2</a></h4>-->
+                <!--<p>Card</p>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+              <div class="portfolio-wrap">
+                  <figure>
+                      <img src="img/portfolio/wm_1.jpeg" class="img-fluid" alt="">
+                      <a href="img/portfolio/wm_1.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                  </figure>
+
+                  <div class="portfolio-info">
+                      <h4><a href="#">Water Mission</a></h4>
+                      <p>Ground Compaction - Gravel Supply</p>
+                  </div>
+              </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm_2.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm_2.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Ground Compaction - Gravel Supply</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm_3.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm_3.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Ground Compaction - Gravel Supply</p>
+                    </div>
+                </div>
+            </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp d-none" data-wow-delay="0.1s">-->
+            <!--<div class="portfolio-wrap">-->
+              <!--<figure>-->
+                <!--<img src="img/portfolio/web2.jpg" class="img-fluid" alt="">-->
+                <!--<a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>-->
+              <!--</figure>-->
+
+              <!--<div class="portfolio-info">-->
+                <!--<h4><a href="#">Web 2</a></h4>-->
+                <!--<p>Web</p>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/off_3.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_3.jpeg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
               </div>
             </div>
           </div>
@@ -375,44 +539,13 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app2.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <img src="img/portfolio/off_4.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_4.jpeg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">App 2</a></h4>
-                <p>App</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/card2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Card 2</a></h4>
-                <p>Card</p>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.1s">
-            <div class="portfolio-wrap">
-              <figure>
-                <img src="img/portfolio/web2.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web2.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 2" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
-              </figure>
-
-              <div class="portfolio-info">
-                <h4><a href="#">Web 2</a></h4>
-                <p>Web</p>
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
               </div>
             </div>
           </div>
@@ -420,62 +553,212 @@
           <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/app3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/app3.jpg" class="link-preview" data-lightbox="portfolio" data-title="App 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <img src="img/portfolio/off_5.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_5.jpeg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">App 3</a></h4>
-                <p>App</p>
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <img src="img/portfolio/off_6.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_6.jpeg" class="link-preview" data-lightbox="portfolio" data-title="" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Card 1</a></h4>
-                <p>Card</p>
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp" data-wow-delay="0.1s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/card3.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/card3.jpg" class="link-preview" data-lightbox="portfolio" data-title="Card 3" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <img src="img/portfolio/off_7.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_7.jpeg" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Card 3</a></h4>
-                <p>Card</p>
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
               </div>
             </div>
           </div>
 
-          <div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp" data-wow-delay="0.2s">
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
             <div class="portfolio-wrap">
               <figure>
-                <img src="img/portfolio/web1.jpg" class="img-fluid" alt="">
-                <a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>
-                <a href="#" class="link-details" title="More Details"><i class="ion ion-android-open"></i></a>
+                <img src="img/portfolio/off_8.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_8.jpeg" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
               </figure>
 
               <div class="portfolio-info">
-                <h4><a href="#">Web 1</a></h4>
-                <p>Web</p>
+                <h4><a class="off-lang">Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
               </div>
             </div>
           </div>
+
+          <div class="col-lg-4 col-md-6 portfolio-item filter-app wow fadeInUp" data-wow-delay="0.2s">
+            <div class="portfolio-wrap">
+              <figure>
+                <img src="img/portfolio/off_9.jpeg" class="img-fluid" alt="">
+                <a href="img/portfolio/off_9.jpeg" class="link-preview" data-lightbox="portfolio" title="Preview"><i class="ion ion-eye"></i></a>
+              </figure>
+
+              <div class="portfolio-info">
+                <h4><a>Office</a></h4>
+                <p>Suite 304 (Assertus Building)</p>
+              </div>
+            </div>
+          </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm_4.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm_4.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Ground Compaction - Gravel Supply</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm_5.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm_5.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Ground Compaction - Gravel Supply</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm-elec_1.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm-elec_1.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Electric Room</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm-elec_2.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm-elec_2.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Electric Room</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm-elec_3.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm-elec_3.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Electric Room</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm-elec_4.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm-elec_4.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Electric Room</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm-elec_5.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm-elec_5.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Electric Room</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm-elec_6.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm-elec_6.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Electric Room</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-lg-4 col-md-6 portfolio-item filter-card wow fadeInUp">
+                <div class="portfolio-wrap">
+                    <figure>
+                        <img src="img/portfolio/wm-elec_7.jpeg" class="img-fluid" alt="">
+                        <a href="img/portfolio/wm-elec_7.jpeg" class="link-preview" data-lightbox="portfolio" data-title="Card 2" title="Preview"><i class="ion ion-eye"></i></a>
+                    </figure>
+
+                    <div class="portfolio-info">
+                        <h4><a href="#">Water Mission</a></h4>
+                        <p>Electric Room</p>
+                    </div>
+                </div>
+            </div>
+
+          <!--<div class="col-lg-4 col-md-6 portfolio-item filter-web wow fadeInUp d-none" data-wow-delay="0.2s">-->
+            <!--<div class="portfolio-wrap">-->
+              <!--<figure>-->
+                <!--<img src="img/portfolio/web1.jpg" class="img-fluid" alt="">-->
+                <!--<a href="img/portfolio/web1.jpg" class="link-preview" data-lightbox="portfolio" data-title="Web 1" title="Preview"><i class="ion ion-eye"></i></a>-->
+              <!--</figure>-->
+
+              <!--<div class="portfolio-info">-->
+                <!--<h4><a href="#">Web 1</a></h4>-->
+                <!--<p>Web</p>-->
+              <!--</div>-->
+            <!--</div>-->
+          <!--</div>-->
 
         </div>
 
@@ -527,74 +810,71 @@
     <!--==========================
       Clients Section
     ============================-->
-    <section id="testimonials" class="section-bg wow fadeInUp d-none">
-      <div class="container">
+    <!--<section id="testimonials" class="section-bg wow fadeInUp">-->
+      <!--<div class="container">-->
 
-        <header class="section-header">
-          <h3>Testimonios</h3>
-        </header>
+        <!--<header class="section-header">-->
+          <!--<h3>Testimonios</h3>-->
+        <!--</header>-->
 
-        <div class="owl-carousel testimonials-carousel">
+        <!--<div class="owl-carousel testimonials-carousel">-->
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-1.jpg" class="testimonial-img" alt="">
-            <h3>Saul Goodman</h3>
-            <h4>Ceo &amp; Founder</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <!--<div class="testimonial-item">-->
+            <!--<p>-->
+              <!--<img src="img/quote-sign-left.png" class="quote-sign-left" alt="">-->
+              <!--Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.-->
+              <!--<img src="img/quote-sign-right.png" class="quote-sign-right" alt="">-->
+            <!--</p>-->
+          <!--</div>-->
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-2.jpg" class="testimonial-img" alt="">
-            <h3>Sara Wilsson</h3>
-            <h4>Designer</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <!--<div class="testimonial-item">-->
+            <!--<img src="img/testimonial-2.jpg" class="testimonial-img" alt="">-->
+            <!--<h3>Sara Wilsson</h3>-->
+            <!--<h4>Designer</h4>-->
+            <!--<p>-->
+              <!--<img src="img/quote-sign-left.png" class="quote-sign-left" alt="">-->
+              <!--Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.-->
+              <!--<img src="img/quote-sign-right.png" class="quote-sign-right" alt="">-->
+            <!--</p>-->
+          <!--</div>-->
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-3.jpg" class="testimonial-img" alt="">
-            <h3>Jena Karlis</h3>
-            <h4>Store Owner</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <!--<div class="testimonial-item">-->
+            <!--<img src="img/testimonial-3.jpg" class="testimonial-img" alt="">-->
+            <!--<h3>Jena Karlis</h3>-->
+            <!--<h4>Store Owner</h4>-->
+            <!--<p>-->
+              <!--<img src="img/quote-sign-left.png" class="quote-sign-left" alt="">-->
+              <!--Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim tempor labore quem eram duis noster aute amet eram fore quis sint minim.-->
+              <!--<img src="img/quote-sign-right.png" class="quote-sign-right" alt="">-->
+            <!--</p>-->
+          <!--</div>-->
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-4.jpg" class="testimonial-img" alt="">
-            <h3>Matt Brandon</h3>
-            <h4>Freelancer</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-              <img src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <!--<div class="testimonial-item">-->
+            <!--<img src="img/testimonial-4.jpg" class="testimonial-img" alt="">-->
+            <!--<h3>Matt Brandon</h3>-->
+            <!--<h4>Freelancer</h4>-->
+            <!--<p>-->
+              <!--<img src="img/quote-sign-left.png" class="quote-sign-left" alt="">-->
+              <!--Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit minim dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.-->
+              <!--<img src="img/quote-sign-right.png" class="quote-sign-right" alt="">-->
+            <!--</p>-->
+          <!--</div>-->
 
-          <div class="testimonial-item">
-            <img src="img/testimonial-5.jpg" class="testimonial-img" alt="">
-            <h3>John Larson</h3>
-            <h4>Entrepreneur</h4>
-            <p>
-              <img src="img/quote-sign-left.png" class="quote-sign-left" alt="">
-              Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-              <im  src="img/quote-sign-right.png" class="quote-sign-right" alt="">
-            </p>
-          </div>
+          <!--<div class="testimonial-item">-->
+            <!--<img src="img/testimonial-5.jpg" class="testimonial-img" alt="">-->
+            <!--<h3>John Larson</h3>-->
+            <!--<h4>Entrepreneur</h4>-->
+            <!--<p>-->
+              <!--<img src="img/quote-sign-left.png" class="quote-sign-left" alt="">-->
+              <!--Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.-->
+              <!--<im  src="img/quote-sign-right.png" class="quote-sign-right" alt="">-->
+            <!--</p>-->
+          <!--</div>-->
 
-        </div>
+        <!--</div>-->
 
-      </div>
-    </section><!-- #testimonials -->
+      <!--</div>-->
+    <!--</section>&lt;!&ndash; #testimonials &ndash;&gt;-->
 
     <!--==========================
       Team Section

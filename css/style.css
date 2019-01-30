@@ -1117,8 +1117,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #testimonials .testimonial-item h4 {
-  font-size: 14px;
-  color: #999;
+  font-size: 20px;
+  color: #666666;
   margin: 0 0 15px 0;
 }
 
@@ -1532,6 +1532,10 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .our-projects {
   list-style-type: none;
+}
+
+.link-preview{
+  margin-left: 30px;
 }
 
 /*--------------------------------------------------------------

@@ -144,10 +144,10 @@
     });
   }, { offset: '80%'} );
 
-  // jQuery counterUp (used in Facts section)
+  //jQuery counterUp (used in Facts section)
   $('[data-toggle="counter-up"]').counterUp({
     delay: 10,
-    time: 3000
+    time: 1000
   });
 
   // Porfolio isotope and filter
