@@ -40,7 +40,7 @@ $(document).ready(function(){
         $("#services-5-lang").empty().text("Venta e instalación de muebles para oficina");
         $("#services-6-lang").empty().text("Conocimiento en revisión y evaluación de estructuras empleando la normativa vigente aplicable");
         $("#services-7-lang").empty().text("Instalación de: ");
-        $("#services-7-1-lang").empty().text("Sistema de alarma de fuego, sistema de supresión de fuego, sistema de llamada paciente-enfermera (nurse call), sistema de sonido y localización, sistema de control de acceso, sistema de Circuito Cerrado de Televisión (CCTV), sistema de intercom y sistema de cableado estructurado");
+        $("#services-7-1-lang").empty().text("sistema de alarma de fuego, sistema de supresión de fuego, sistema de llamada paciente-enfermera (nurse call), sistema de sonido y localización, sistema de control de acceso, sistema de Circuito Cerrado de Televisión (CCTV), sistema de intercom y sistema de cableado estructurado");
         $("#services-8-lang").empty().text("Construcción general: ");
         $("#services-8-1-lang").empty().text("concreto, acabados, electricidad, mecánica y plomería, tanto para proyectos públicos como privados");
 
@@ -117,9 +117,9 @@ $(document).ready(function(){
         $("#services-5-lang").empty().text("Sale and installation of office furniture");
         $("#services-6-lang").empty().text("Knowledge in revision and structure evaluations utilizing applicable current regulation");
         $("#services-7-lang").empty().text("Installation of: ");
-        $("#services-7-1-lang").empty().text("Fire alarm system, sprinkler system, Nurse Call system, sound & paging systems, access control system, CCTV system, intercom system and structured cabling system.");
+        $("#services-7-1-lang").empty().text("fire alarm system, sprinkler system, Nurse Call system, sound & paging systems, access control system, CCTV system, intercom system and structured cabling system.");
         $("#services-8-lang").empty().text("General Construction: ");
-        $("#services-8-1-lang").empty().text("Concrete, finishes, electrical, mechanical and plumbing, for public and private projects.");
+        $("#services-8-1-lang").empty().text("concrete, finishes, electrical, mechanical and plumbing, for public and private projects.");
 
         //Data
         $("#data-lang").empty().text("Our Data");
