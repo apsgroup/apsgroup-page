@@ -1538,8 +1538,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 30px;
 }
 
-.logo-no-scroll {
-  margin-top: -7px;
+.logo-no-scroll #logo{
+  margin-top: -10px;
+  position: relative !important;
 }
 
 /*--------------------------------------------------------------
