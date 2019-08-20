@@ -1538,6 +1538,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-left: 30px;
 }
 
+.logo-no-scroll {
+  margin-top: -7px;
+}
+
 /*--------------------------------------------------------------
 # Responsive Media Queries
 --------------------------------------------------------------*/

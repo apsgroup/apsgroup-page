@@ -112,8 +112,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+      $('#header').removeClass('logo-no-scroll');
     } else {
       $('#header').removeClass('header-scrolled');
+        $('#header').addClass('logo-no-scroll');
     }
   });
 
